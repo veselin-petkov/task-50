@@ -13,6 +13,15 @@
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+      <form action="/card-details" method="post">
+        <input type="text" id="name" class="input" minlength="20" required>
+        <input type="text" id="name-slug" class="input" pattern="[A-Za-z]">
+        <input type="number" id="number-of-contributers" class="input" min="1" max="100">
+        <input type="number" id="max-number-of-branches" class="input" min="1" max="100">
+
+
+
+      </form>
     </div>
   </body>
 </html>
